@@ -3,6 +3,10 @@ import { RegisterController } from "@abb/controller";
 
 import { RegisterView } from "./ui/RegisterView";
 
+// container -> view
+// container -> connector -> view
+// controller -> connector -> view
+
 export class RegisterConnector extends React.PureComponent {
   render() {
     return (
